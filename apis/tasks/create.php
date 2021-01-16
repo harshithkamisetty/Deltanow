@@ -24,10 +24,10 @@
   // Create task
   if($tasks->create()) {
     echo json_encode(
-      array('message' => 'Post Created')
+      array('message' => 'Task Created')
     );
   } else {
     echo json_encode(
-      array('message' => 'Post Not Created')
+      array('message' => 'Task Not Created')
     );
   }
