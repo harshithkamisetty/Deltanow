@@ -27,10 +27,10 @@
   // Update post
   if($tasks->update()) {
     echo json_encode(
-      array('message' => 'Post Updated')
+      array('message' => 'Task Updated')
     );
   } else {
     echo json_encode(
-      array('message' => 'Post Not Updated')
+      array('message' => 'Task Not Updated')
     );
   }
