@@ -24,10 +24,10 @@
   // Delete task
   if($tasks->completed()) {
     echo json_encode(
-      array('message' => 'Post completed')
+      array('message' => 'Task completed')
     );
   } else {
     echo json_encode(
-      array('message' => 'Post Not completed')
+      array('message' => 'Task Not completed')
     );
   }
