@@ -3,7 +3,7 @@
 //index.php
 
 //Include Configuration File
-include('config.php');
+include('google autho_config.php');
 
 $login_button = '';
 
